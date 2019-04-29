@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ling.mapper.CardMapper">
+  <resultMap id="BaseResultMap" type="com.ling.model.Card">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="card_num" jdbcType="INTEGER" property="cardNum" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="card_type" jdbcType="VARCHAR" property="cardType" />
+    <result column="parking_num" jdbcType="INTEGER" property="parkingNum" />
+    <result column="balance" jdbcType="VARCHAR" property="balance" />
+  </resultMap>
+</mapper>

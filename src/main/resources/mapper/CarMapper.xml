@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ling.mapper.CarMapper">
+  <resultMap id="BaseResultMap" type="com.ling.model.Car">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="car_num" jdbcType="VARCHAR" property="carNum" />
+    <result column="car_brand" jdbcType="VARCHAR" property="carBrand" />
+    <result column="car_color" jdbcType="VARCHAR" property="carColor" />
+    <result column="car_picture" jdbcType="VARCHAR" property="carPicture" />
+  </resultMap>
+</mapper>

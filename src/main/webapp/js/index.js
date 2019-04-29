@@ -1,0 +1,6 @@
+$.ajaxSetup({cache:true});
+$(function () {
+
+
+
+});

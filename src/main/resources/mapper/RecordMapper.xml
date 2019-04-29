@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ling.mapper.RecordMapper">
+  <resultMap id="BaseResultMap" type="com.ling.model.Record">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="parking_num" jdbcType="INTEGER" property="parkingNum" />
+    <result column="car_num" jdbcType="VARCHAR" property="carNum" />
+    <result column="parking_time" jdbcType="VARCHAR" property="parkingTime" />
+    <result column="cost" jdbcType="DOUBLE" property="cost" />
+    <result column="invoice" jdbcType="VARCHAR" property="invoice" />
+  </resultMap>
+</mapper>
